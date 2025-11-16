@@ -30,7 +30,7 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               value: password     # ⚠️ change this for production
             - name: MYSQL_DATABASE
-              value: projectdb
+              value: bookdb
           volumeMounts:
             - name: mysql-storage
               mountPath: /var/lib/mysql
